@@ -3,6 +3,7 @@ import React, { Component } from "react";
 import Logo from '../../assets/img/ivape-logo.png'
 import './menu.css'
 import Flavor from '../../assets/img/flavors.png'
+import { Container } from "react-bootstrap";
 // import Brand from '../../assets/img/.png'
 // import Brand from 'https://www.fillmurray.com/g/200/300'
 
@@ -14,6 +15,7 @@ class Menu extends Component {
                     {/* <Navbar /> */}
                 </header>
                 <body>
+                    <Container fluid>
                    <div className="menu-div">
                        <div>
                        {/* <img className='brand-logo' src={Brand}></img> */}
@@ -23,7 +25,7 @@ class Menu extends Component {
                            <img className='flavors-img' src={Flavor}></img>
                        </div>
                         <div className="row">
-                            <div className='col-md-4 col-sm-2'>
+                            <div className='col-md-4 col-sm-6'>
                                 <h3 className=' flavor-name'>TEST</h3>
                                 <div className='line'>
                                 </div>
@@ -32,7 +34,7 @@ class Menu extends Component {
                                     Test paragraph
                                 </p>
                             </div>
-                            <div className='col-md-4 col-sm-2'>
+                            <div className='col-md-4 col-sm-6'>
                                 <h3 className=' flavor-name'>TEST</h3>
                                 <div className='line'>
                                 </div>
@@ -40,7 +42,7 @@ class Menu extends Component {
                                     Test paragraph
                                 </p>
                             </div>
-                            <div className='col-md-4 col-sm-2'>
+                            <div className='col-md-4 col-sm-6'>
                                 <h3 className=' flavor-name'>TEST</h3>
                                 <div className='line'>
                                 </div>
@@ -48,9 +50,8 @@ class Menu extends Component {
                                     Test paragraph
                                 </p>
                             </div>
-                         </div>
-                         <div className="row">
-                            <div className='col-md-4 col-sm-2'>
+                        
+                            <div className='col-md-4 col-sm-6'>
                                 <h3 className=' flavor-name'>TEST</h3>
                                 <div className='line'>
                                 </div>
@@ -59,7 +60,7 @@ class Menu extends Component {
                                     Test paragraph
                                 </p>
                             </div>
-                            <div className='col-md-4 col-sm-2'>
+                            <div className='col-md-4 col-sm-6'>
                                 <h3 className=' flavor-name'>TEST</h3>
                                 <div className='line'>
                                 </div>
@@ -67,7 +68,7 @@ class Menu extends Component {
                                     Test paragraph
                                 </p>
                             </div>
-                            <div className='col-md-4 col-sm-2'>
+                            <div className='col-md-4 col-sm-6'>
                                 <h3 className=' flavor-name'>TEST</h3>
                                 <div className='line'>
                                 </div>
@@ -75,9 +76,8 @@ class Menu extends Component {
                                     Test paragraph
                                 </p>
                             </div>
-                         </div>
-                         <div className="row">
-                            <div className='col-md-4 col-sm-2'>
+                        
+                            <div className='col-md-4 col-sm-6'>
                                 <h3 className=' flavor-name'>TEST</h3>
                                 <div className='line'>
                                 </div>
@@ -85,7 +85,7 @@ class Menu extends Component {
                                     Test paragraph
                                 </p>
                             </div>
-                            <div className='col-md-4 col-sm-2'>
+                            <div className='col-md-4 col-sm-6'>
                                 <h3 className=' flavor-name'>TEST</h3>
                                 <div className='line'>
                                 </div>
@@ -93,7 +93,7 @@ class Menu extends Component {
                                     Test paragraph
                                 </p>
                             </div>
-                            <div className='col-md-4 col-sm-2'>
+                            <div className='col-md-4 col-sm-6'>
                                 <h3 className=' flavor-name'>TEST</h3>
                                 <div className='line'>
                                 </div>
@@ -104,7 +104,7 @@ class Menu extends Component {
                          </div>
                          <div className='row text end'>
                                 <p>
-                                    <strong className='end-text'>PG/VG: 40%/60%</strong>
+                                    <strong className='end-text'>PG/VG: 60%/60%</strong>
                               <br />
                                     <strong className='end-text'>Nicotine Levels: 0mg, 3mg, 6mg</strong>
                                     <br />
@@ -112,6 +112,7 @@ class Menu extends Component {
                                 </p>
                          </div>
                    </div>
+                   </Container>
                 </body>
             </div>
         )
