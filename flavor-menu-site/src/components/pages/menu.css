@@ -20,7 +20,10 @@
 }
 
 .text {
-    color: white
+    color: white;
+    font-weight: bolder;
+    font-size: larger;
+    
 }
 
 .line {
@@ -43,4 +46,12 @@
 
 .flavors-img {
     max-width: 100%;
+}
+
+.row {
+    justify-content: center;
+}
+
+.text{
+    margin: 5%;
 }

@@ -25,81 +25,48 @@ class Badger extends Component {
                        </div>
                         <div className="row">
                             <div className='col-md-4 col-sm-6'>
-                                <h3 className=' flavor-name'>TEST</h3>
+                                <h3 className=' flavor-name'>American Way</h3>
                                 <div className='line'>
                                 </div>
                                 {/* <hr className='line' /> */}
                                 <p className='text'>
-                                    Test paragraph
+                                    American Way uses a blend of 3 classic tobacco styles normally found in the Virginia-Carolina tobacco belt, this tobacco vape juice has a fantastic array of earth, spice, leather, a smooth finish, and a touch of caramel sweetness that lingers on the tongue
                                 </p>
                             </div>
                             <div className='col-md-4 col-sm-6'>
-                                <h3 className=' flavor-name'>TEST</h3>
+                                <h3 className=' flavor-name'>Brown Sugar</h3>
                                 <div className='line'>
                                 </div>
                                 <p className='text'>
-                                    Test paragraph
+                                Our Brown Sugar consists of our proprietary tobacco blend along with equal parts light and dark brown sugar giving you a deep, rich, tobacco and sweet molasses flavor
                                 </p>
                             </div>
                             <div className='col-md-4 col-sm-6'>
-                                <h3 className=' flavor-name'>TEST</h3>
+                                <h3 className=' flavor-name'>Classic</h3>
                                 <div className='line'>
                                 </div>
                                 <p className='text'>
-                                    Test paragraph
+                                For some people, the taste of an actual cigarette is all too familiar and may make it hard to switch from. Our goal with ‘Classic” was to recreate the taste of an actual cigarette. Users should expect the familiar taste of ash along with light roasted spices, and a touch of sweet cocoa
                                 </p>
                             </div>
                         
                             <div className='col-md-4 col-sm-6'>
-                                <h3 className=' flavor-name'>TEST</h3>
+                                <h3 className=' flavor-name'>Menthol</h3>
                                 <div className='line'>
                                 </div>
-                                {/* <hr className='line' /> */}
                                 <p className='text'>
-                                    Test paragraph
+                                Uses our blend of 3 tobacco styles normally found in the Virginia-Carolina tobacco belt, this menthol vape juice has a fantastic array of earth, spice, leather, and a refreshingly cool menthol finish
                                 </p>
                             </div>
                             <div className='col-md-4 col-sm-6'>
-                                <h3 className=' flavor-name'>TEST</h3>
+                                <h3 className=' flavor-name'>Milk & Honey</h3>
                                 <div className='line'>
                                 </div>
                                 <p className='text'>
-                                    Test paragraph
+                                    XXX
                                 </p>
                             </div>
-                            <div className='col-md-4 col-sm-6'>
-                                <h3 className=' flavor-name'>TEST</h3>
-                                <div className='line'>
-                                </div>
-                                <p className='text'>
-                                    Test paragraph
-                                </p>
-                            </div>
-                        
-                            <div className='col-md-4 col-sm-6'>
-                                <h3 className=' flavor-name'>TEST</h3>
-                                <div className='line'>
-                                </div>
-                                <p className='text'>
-                                    Test paragraph
-                                </p>
-                            </div>
-                            <div className='col-md-4 col-sm-6'>
-                                <h3 className=' flavor-name'>TEST</h3>
-                                <div className='line'>
-                                </div>
-                                <p className='text'>
-                                    Test paragraph
-                                </p>
-                            </div>
-                            <div className='col-md-4 col-sm-6'>
-                                <h3 className=' flavor-name'>TEST</h3>
-                                <div className='line'>
-                                </div>
-                                <p className='text'>
-                                    Test paragraph
-                                </p>
-                            </div>
+                            
                          </div>
                          <div className='row text end'>
                                 <p>
