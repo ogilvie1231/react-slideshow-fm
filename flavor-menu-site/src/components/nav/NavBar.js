@@ -5,6 +5,9 @@ import {
   Nav,
   Container,
 } from 'react-bootstrap';
+import './NavBar.css'
+import Logo from '../../assets/img/ivape-logo.png'
+
 
 const NavBar = () => {
 
@@ -12,7 +15,7 @@ const NavBar = () => {
     <div>
       <Navbar bg="light" expand="lg">
   <Container>
-    <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+    <Navbar.Brand href="#home"><img id="logo" className='iVape-logo' src={Logo} alt="iVape-logo" srcset="" /></Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="me-auto">

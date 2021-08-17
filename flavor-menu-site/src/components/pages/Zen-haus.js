@@ -4,10 +4,9 @@ import Logo from '../../assets/img/ivape-logo.png'
 import './menu.css'
 import Flavor from '../../assets/img/flavors.png'
 import { Container } from "react-bootstrap";
-// import Brand from '../../assets/logos/anarchist-logo.png'
-// import Brand from 'https://www.fillmurray.com/g/200/300'
+import Brand from '../../assets/logos/zen-haus-logo.png'
 
-class Menu extends Component {
+class Zen extends Component {
     render() {
         return (
             <div>
@@ -18,8 +17,7 @@ class Menu extends Component {
                     <Container fluid>
                    <div className="menu-div">
                        <div>
-                       {/* <img className='brand-logo' src={Brand}></img> */}
-                       <img className="brand-logo" src='https://www.fillmurray.com/g/600/600'></img>
+                       <img className='brand-logo' src={Brand}></img>
                        </div>
                        <div>
                            <img className='flavors-img' src={Flavor}></img>
@@ -119,4 +117,4 @@ class Menu extends Component {
     }
 }
 
-export default Menu
+export default Zen
