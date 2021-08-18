@@ -6,6 +6,11 @@
   height: 40vmin;
   pointer-events: none;
 }
+body { 
+  background: linear-gradient(#9c9c9c, #cccccc);
+  background-attachment: fixed;
+  /* position: fixed; */
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

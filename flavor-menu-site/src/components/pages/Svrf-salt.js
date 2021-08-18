@@ -6,7 +6,7 @@ import Flavor from "../../assets/img/flavors.png";
 import { Container } from "react-bootstrap";
 import Brand from "../../assets/logos/svrf-logo.png";
 
-class Svrf extends Component {
+class SvrfSalt extends Component {
   render() {
     return (
       <div>
@@ -35,6 +35,13 @@ class Svrf extends Component {
                   </p>
                 </div>
                 <div className="col-md-4 col-sm-6">
+                  <h3 className=" flavor-name">Revive</h3>
+                  <div className="line"></div>
+                  <p className="text">
+                    A brilliant concoction of blueberries and limes
+                  </p>
+                </div>
+                <div className="col-md-4 col-sm-6">
                   <h3 className=" flavor-name">Satisfying</h3>
                   <div className="line"></div>
                   <p className="text">
@@ -47,13 +54,6 @@ class Svrf extends Component {
                   <div className="line"></div>
                   <p className="text">
                     A blend of berries topped off with lychee fruit
-                  </p>
-                </div>
-                <div className="col-md-4 col-sm-6">
-                  <h3 className=" flavor-name">Revive</h3>
-                  <div className="line"></div>
-                  <p className="text">
-                    A brilliant concoction of blueberries and limes
                   </p>
                 </div>
                 <div className="col-md-4 col-sm-6">
@@ -72,6 +72,13 @@ class Svrf extends Component {
                   </p>
                 </div>
                 <div className="col-md-4 col-sm-6">
+                  <h3 className=" flavor-name">Revive Ice</h3>
+                  <div className="line"></div>
+                  <p className="text">
+                    A brilliant concoction of blueberries and limes with an icy finish
+                  </p>
+                </div>
+                <div className="col-md-4 col-sm-6">
                   <h3 className=" flavor-name">Satisfying Ice</h3>
                   <div className="line"></div>
                   <p className="text">
@@ -79,16 +86,22 @@ class Svrf extends Component {
                     with every puff with a perfect touch of menthol
                   </p>
                 </div>
+                <div className="col-md-4 col-sm-6">
+                  <h3 className=" flavor-name">Stimulating Ice</h3>
+                  <div className="line"></div>
+                  <p className="text">
+                    A blend of berries topped off with lychee fruit topped with menthol
+                  </p>
+                </div>
+                
               </div>
               <div className="row text end">
                 <p>
-                  <strong className="end-text">PG/VG: 30%/70%</strong>
-                  <br />
                   <strong className="end-text">
-                    Nicotine Levels: 0mg, 3mg, 6mg
+                    24mg Nic Salt
                   </strong>
                   <br />
-                  <strong className="end-text">$19.99 60ml</strong>
+                  <strong className="end-text">$11.99 15ml</strong>
                 </p>
               </div>
             </div>
@@ -99,4 +112,4 @@ class Svrf extends Component {
   }
 }
 
-export default Svrf;
+export default SvrfSalt;

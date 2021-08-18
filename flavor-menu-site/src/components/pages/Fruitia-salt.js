@@ -4,9 +4,9 @@ import Logo from "../../assets/img/ivape-logo.png";
 import "./menu.css";
 import Flavor from "../../assets/img/flavors.png";
 import { Container } from "react-bootstrap";
-import Brand from "../../assets/logos/cali-grown-logo.png";
+import Brand from "../../assets/logos/fruitia-logo.png";
 
-class Cali extends Component {
+class FruitiaSalts extends Component {
   render() {
     return (
       <div>
@@ -22,56 +22,62 @@ class Cali extends Component {
               </div>
               <div className="row">
                 <div className="col-md-4 col-sm-6">
-                  <h3 className=" flavor-name">Grizzly Apple</h3>
-                  <div className="line"></div>
-                  <p className="text">A perfectly sweet red apple</p>
-                </div>
-                <div className="col-md-4 col-sm-6">
-                  <h3 className=" flavor-name">Napa Nectar</h3>
+                  <h3 className=" flavor-name">Apple Kiwi Crush</h3>
                   <div className="line"></div>
                   <p className="text">
-                    A mango, peach & pineapple blend that we can't describe, you
-                    just have to try it
+                    Apples and kiwis have never been this good
                   </p>
                 </div>
                 <div className="col-md-4 col-sm-6">
-                  <h3 className=" flavor-name">Wavy Watermelon</h3>
-                  <div className="line"></div>
-                  <p className="text">A Juicy candied watermelon</p>
-                </div>
-                <div className="col-md-4 col-sm-6">
-                  <h3 className=" flavor-name">Grizzly Apple Cool</h3>
+                  <h3 className=" flavor-name">Banana Ice</h3>
                   <div className="line"></div>
                   <p className="text">
-                    A perfectly sweet red apple with the perfect touch of
+                    A perfectly balanced banana flavor topped with a smooth
                     menthol
                   </p>
                 </div>
                 <div className="col-md-4 col-sm-6">
-                  <h3 className=" flavor-name">Napa Nectar Cool</h3>
+                  <h3 className=" flavor-name">Blood Orange Cactus Cooler</h3>
                   <div className="line"></div>
                   <p className="text">
-                    A mango, peach & pineapple blend with a perfect touch of
-                    menthol that we can't describe, you just have to try it
+                    A summer combination that will leave you wanting more every
+                    time
                   </p>
                 </div>
                 <div className="col-md-4 col-sm-6">
-                  <h3 className=" flavor-name">Watermelon Cool</h3>
+                  <h3 className=" flavor-name">Passion Guava Punch</h3>
                   <div className="line"></div>
                   <p className="text">
-                    A Juicy candied watermelon with a perfect touch of menthol
+                    A remarkable summer time blend of passionfruits and guavas
+                  </p>
+                </div>
+                <div className="col-md-4 col-sm-6">
+                  <h3 className=" flavor-name">Pineapple Citrus Twist</h3>
+                  <div className="line"></div>
+                  <p className="text">A tropical pineapple citrus blend</p>
+                </div>
+                <div className="col-md-4 col-sm-6">
+                  <h3 className=" flavor-name">Strawberry Coconut Refresher</h3>
+                  <div className="line"></div>
+                  <p className="text">
+                    A tigers blood like drink. Mixing ripe strawberries and
+                    delicious coconuts
+                  </p>
+                </div>
+
+                <div className="col-md-4 col-sm-6">
+                  <h3 className=" flavor-name">Sweet Peach Soda</h3>
+                  <div className="line"></div>
+                  <p className="text">
+                    Crisp, sparkling soda blended with ripe sweet peaches
                   </p>
                 </div>
               </div>
               <div className="row text end">
                 <p>
-                  <strong className="end-text">PG/VG: 30%/70%</strong>
+                  <strong className="end-text">24mg Nic Salt</strong>
                   <br />
-                  <strong className="end-text">
-                    Nicotine Levels: 0mg, 3mg, 6mg
-                  </strong>
-                  <br />
-                  <strong className="end-text">$19.99 60ml</strong>
+                  <strong className="end-text">$11.99 15ml</strong>
                 </p>
               </div>
             </div>
@@ -82,4 +88,4 @@ class Cali extends Component {
   }
 }
 
-export default Cali;
+export default FruitiaSalts;

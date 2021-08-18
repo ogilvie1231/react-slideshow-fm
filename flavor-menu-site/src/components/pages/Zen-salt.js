@@ -4,9 +4,9 @@ import Logo from "../../assets/img/ivape-logo.png";
 import "./menu.css";
 import Flavor from "../../assets/img/flavors.png";
 import { Container } from "react-bootstrap";
-import Brand from "../../assets/logos/gummy-beast-logo.png";
+import Brand from "../../assets/logos/zen-haus-logo.png";
 
-class Gummy extends Component {
+class ZenSalts extends Component {
   render() {
     return (
       <div>
@@ -22,36 +22,33 @@ class Gummy extends Component {
               </div>
               <div className="row">
                 <div className="col-md-4 col-sm-6">
-                  <h3 className=" flavor-name">Blue Gummy</h3>
+                  <h3 className=" flavor-name">Meditation</h3>
                   <div className="line"></div>
-                  <p className="text">
-                    A Perfect Recreation of a Blue Raspberry Gummy Bear!
-                  </p>
+                  <p className="text">Watermelon, jackfruit & grapefruit</p>
                 </div>
                 <div className="col-md-4 col-sm-6">
-                  <h3 className=" flavor-name">Red Gummy</h3>
+                  <h3 className=" flavor-name">Nirvana</h3>
                   <div className="line"></div>
-                  <p className="text">
-                    A Perfect Recreation of a Raspberry Gummy Bear!
-                  </p>
+                  <p className="text">Mango, passionfruit & strawberry</p>
                 </div>
                 <div className="col-md-4 col-sm-6">
-                  <h3 className=" flavor-name">White Gummy</h3>
+                  <h3 className=" flavor-name">Rebirth</h3>
                   <div className="line"></div>
-                  <p className="text">
-                    A Perfect Recreation of a Pineapple Gummy Bear!
-                  </p>
+                  <p className="text">Nectarine, raspberry & apple</p>
+                </div>
+                <div className="col-md-4 col-sm-6">
+                  <h3 className=" flavor-name">Serenity</h3>
+                  <div className="line"></div>
+                  <p className="text">Mango, pineapple & coconut</p>
                 </div>
               </div>
               <div className="row text end">
                 <p>
-                  <strong className="end-text">PG/VG: 30%/70%</strong>
-                  <br />
                   <strong className="end-text">
-                    Nicotine Levels: 0mg, 3mg, 6mg
+                    24mg Nic Salt
                   </strong>
                   <br />
-                  <strong className="end-text">$19.99 60ml</strong>
+                  <strong className="end-text">$11.99 15ml</strong>
                 </p>
               </div>
             </div>
@@ -61,5 +58,4 @@ class Gummy extends Component {
     );
   }
 }
-
-export default Gummy;
+export default ZenSalts;

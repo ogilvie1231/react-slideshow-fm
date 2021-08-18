@@ -1,7 +1,7 @@
-/* body { */
-    /* background: rgb(255, 255, 232); */
-    /* background-image: url(../../assets/img/background.jpg)  */
-/* } */
+/* body { 
+    background: linear-gradient(#5f5f5f, #9198e5, #5f5f5f);
+    position: sticky;
+} */
 
 .logo-div {
     /* background-color: gray; */

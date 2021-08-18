@@ -24,86 +24,27 @@ class Beard extends Component {
                            <img className='flavors-img' src={Flavor}></img>
                        </div>
                         <div className="row">
+      
                             <div className='col-md-4 col-sm-6'>
-                                <h3 className=' flavor-name'>TEST</h3>
+                                <h3 className=' flavor-name'>#24</h3>
                                 <div className='line'>
                                 </div>
-                                {/* <hr className='line' /> */}
                                 <p className='text'>
-                                    Test paragraph
+                                A divine salted caramel malt that you have to try to believe
                                 </p>
                             </div>
                             <div className='col-md-4 col-sm-6'>
-                                <h3 className=' flavor-name'>TEST</h3>
+                                <h3 className=' flavor-name'>#32</h3>
                                 <div className='line'>
                                 </div>
                                 <p className='text'>
-                                    Test paragraph
-                                </p>
-                            </div>
-                            <div className='col-md-4 col-sm-6'>
-                                <h3 className=' flavor-name'>TEST</h3>
-                                <div className='line'>
-                                </div>
-                                <p className='text'>
-                                    Test paragraph
-                                </p>
-                            </div>
-                        
-                            <div className='col-md-4 col-sm-6'>
-                                <h3 className=' flavor-name'>TEST</h3>
-                                <div className='line'>
-                                </div>
-                                {/* <hr className='line' /> */}
-                                <p className='text'>
-                                    Test paragraph
-                                </p>
-                            </div>
-                            <div className='col-md-4 col-sm-6'>
-                                <h3 className=' flavor-name'>TEST</h3>
-                                <div className='line'>
-                                </div>
-                                <p className='text'>
-                                    Test paragraph
-                                </p>
-                            </div>
-                            <div className='col-md-4 col-sm-6'>
-                                <h3 className=' flavor-name'>TEST</h3>
-                                <div className='line'>
-                                </div>
-                                <p className='text'>
-                                    Test paragraph
-                                </p>
-                            </div>
-                        
-                            <div className='col-md-4 col-sm-6'>
-                                <h3 className=' flavor-name'>TEST</h3>
-                                <div className='line'>
-                                </div>
-                                <p className='text'>
-                                    Test paragraph
-                                </p>
-                            </div>
-                            <div className='col-md-4 col-sm-6'>
-                                <h3 className=' flavor-name'>TEST</h3>
-                                <div className='line'>
-                                </div>
-                                <p className='text'>
-                                    Test paragraph
-                                </p>
-                            </div>
-                            <div className='col-md-4 col-sm-6'>
-                                <h3 className=' flavor-name'>TEST</h3>
-                                <div className='line'>
-                                </div>
-                                <p className='text'>
-                                    Test paragraph
+                                The flavor that defines dessert. A cinnamon funnel cake that will make you think you are enjoying a night at the fair
                                 </p>
                             </div>
                          </div>
                          <div className='row text end'>
                                 <p>
-                                    <strong className='end-text'>PG/VG: 60%/60%</strong>
+                                    <strong className='end-text'>PG/VG: 30%/70%</strong>
                               <br />
                                     <strong className='end-text'>Nicotine Levels: 0mg, 3mg, 6mg</strong>
                                     <br />

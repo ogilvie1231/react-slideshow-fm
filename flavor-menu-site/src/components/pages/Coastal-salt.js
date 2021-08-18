@@ -4,9 +4,9 @@ import Logo from "../../assets/img/ivape-logo.png";
 import "./menu.css";
 import Flavor from "../../assets/img/flavors.png";
 import { Container } from "react-bootstrap";
-import Brand from "../../assets/logos/fruitia-logo.png";
+import Brand from "../../assets/logos/coastal-logo.png";
 
-class Fruitia extends Component {
+class CoastalSalts extends Component {
   render() {
     return (
       <div>
@@ -22,66 +22,83 @@ class Fruitia extends Component {
               </div>
               <div className="row">
                 <div className="col-md-4 col-sm-6">
-                  <h3 className=" flavor-name">Apple Kiwi Crush</h3>
+                  <h3 className=" flavor-name">Apple Peach Strawberry</h3>
                   <div className="line"></div>
                   <p className="text">
-                    Apples and kiwis have never been this good
+                    Like the name says, this sweet fruit blend stays true
+                    through the whole bottle
                   </p>
                 </div>
                 <div className="col-md-4 col-sm-6">
-                  <h3 className=" flavor-name">Banana Ice</h3>
+                  <h3 className=" flavor-name">Blueberry Lime</h3>
                   <div className="line"></div>
                   <p className="text">
-                    A perfectly balanced banana flavor topped with a smooth
-                    menthol
+                    Ripe Blueberries blended into a perfect limeade
                   </p>
                 </div>
                 <div className="col-md-4 col-sm-6">
-                  <h3 className=" flavor-name">Blood Orange Cactus Cooler</h3>
+                  <h3 className=" flavor-name">Chilled Apple Pear</h3>
                   <div className="line"></div>
                   <p className="text">
-                    A summer combination that will leave you wanting more every
-                    time
+                    Ultra-smooth salt nicotine with crisp apples and juicy pears
+                    with a cooling menthol finish
                   </p>
                 </div>
                 <div className="col-md-4 col-sm-6">
-                  <h3 className=" flavor-name">Passion Guava Punch</h3>
+                  <h3 className=" flavor-name">Citrus Peach</h3>
                   <div className="line"></div>
                   <p className="text">
-                    A remarkable summer time blend of passionfruits and guavas
-                  </p>
-                </div>
-                <div className="col-md-4 col-sm-6">
-                  <h3 className=" flavor-name">Pineapple Citrus Twist</h3>
-                  <div className="line"></div>
-                  <p className="text">A tropical pineapple citrus blend</p>
-                </div>
-                <div className="col-md-4 col-sm-6">
-                  <h3 className=" flavor-name">Strawberry Coconut Refresher</h3>
-                  <div className="line"></div>
-                  <p className="text">
-                    A tigers blood like drink. Mixing ripe strawberries and
-                    delicious coconuts
+                    Ultra-smooth salt nicotine with sweet peaches and juicy
+                    citrus
                   </p>
                 </div>
 
                 <div className="col-md-4 col-sm-6">
-                  <h3 className=" flavor-name">Sweet Peach Soda</h3>
+                  <h3 className=" flavor-name">Iced Mango Berries</h3>
                   <div className="line"></div>
                   <p className="text">
-                    Crisp, sparkling soda blended with ripe sweet peaches
+                    Ultra-smooth salt nicotine with tropical mangos, fresh
+                    strawberries, and flavorful kiwis with a cooling menthol
+                    finish{" "}
+                  </p>
+                </div>
+
+                <div className="col-md-4 col-sm-6">
+                  <h3 className=" flavor-name">Mango</h3>
+                  <div className="line"></div>
+                  <p className="text">
+                    Ultra-smooth salt nicotine with sweet mangos
+                  </p>
+                </div>
+                <div className="col-md-4 col-sm-6">
+                  <h3 className=" flavor-name">Melon Berries</h3>
+                  <div className="line"></div>
+                  <p className="text">
+                    Juicy watermelon, fresh strawberries, and sweet cantaloupe
+                    and honeydew
+                  </p>
+                </div>
+                <div className="col-md-4 col-sm-6">
+                  <h3 className=" flavor-name">Menthol</h3>
+                  <div className="line"></div>
+                  <p className="text">Fresh mint with a cooling finish</p>
+                </div>
+                <div className="col-md-4 col-sm-6">
+                  <h3 className=" flavor-name">Tobacco</h3>
+                  <div className="line"></div>
+                  <p className="text">
+                    Ultra-smooth salt nicotine with rich, earthy, and robust
+                    tobacco flavor
                   </p>
                 </div>
               </div>
               <div className="row text end">
                 <p>
-                  <strong className="end-text">PG/VG: 30%/70%</strong>
-                  <br />
                   <strong className="end-text">
-                    Nicotine Levels: 0mg, 3mg, 6mg
+                    24mg Nic Salt
                   </strong>
                   <br />
-                  <strong className="end-text">$19.99 60ml</strong>
+                  <strong className="end-text">$11.99 15ml</strong>
                 </p>
               </div>
             </div>
@@ -92,4 +109,4 @@ class Fruitia extends Component {
   }
 }
 
-export default Fruitia;
+export default CoastalSalts;

@@ -1,16 +1,16 @@
 import React, { Component } from "react";
-import Navbar from "../nav/NavBar"
-import Logo from '../../assets/img/ivape-logo.png'
-// import './home.css'
-import Anarchist from '../pages/Anarchist'
-import Badger from '../pages/Badger-hill'
-import Beard from '../pages/Beard'
-import Burst from '../pages/Burst'
-import Cali from '../pages/Cali-grown'
-import Chubby from '../pages/Chubby'
-import Coastal from '../pages/Coastal'
-import Colors from '../pages/Colors'
-import Faq from '../pages/Fa-q'
+import Navbar from "../nav/NavBar";
+import Logo from "../../assets/img/ivape-logo.png";
+import "./home.css";
+import Anarchist from "../pages/Anarchist";
+import Badger from "../pages/Badger-hill";
+import Beard from "../pages/Beard";
+import Burst from "../pages/Burst";
+import Cali from "../pages/Cali-grown";
+import Chubby from "../pages/Chubby";
+import Coastal from "../pages/Coastal";
+import Colors from "../pages/Colors";
+import Faq from "../pages/Fa-q";
 import FreshFarms from "../pages/Fresh-farms";
 import FreshPressed from "../pages/Fresh-pressed";
 import Fruitia from "../pages/Fruitia";
@@ -34,53 +34,49 @@ import Verdict from "../pages/Verdict";
 import Wyatt from "../pages/Wyatt-earp";
 import Zen from "../pages/Zen-haus";
 
-
 class Home extends Component {
-    render() {
-        return (
-            <div>
-                <header>
-                    {/* <Navbar /> */}
-                </header>
-                <body>
-        <div>
-         <Anarchist />
-         <Badger />
-         <Beard />
-         <Burst />
-         <Cali />
-         <Chubby />
-         <Coastal />
-         <Colors />
-         <Faq />
-         <FreshFarms />
-         <FreshPressed />
-         <Fruitia />
-         <Glas />
-         <Golden />
-         <Gummy />
-         <JavaJoe />
-         <JuiceHead />
-         <Lyf />
-         <Mega />
-         <Milkshake />
-         <Mints />
-         <Naked />
-         <Pinup />
-         <Reds />
-         <Slammin />
-         <Svrf />
-         <Taylor />
-         <TimeBomb />
-         <Verdict />
-         <Wyatt />
-         <Zen />
-        </div>
-
-                </body>
-            </div>
-        )
-    }
+  render() {
+    return (
+      <div>
+        <header>{/* <Navbar /> */}</header>
+        <body>
+          <div>
+            <Anarchist />
+            <Badger />
+            <Beard />
+            <Burst />
+            <Cali />
+            <Chubby />
+            <Coastal />
+            <Colors />
+            <Faq />
+            <FreshFarms />
+            <FreshPressed />
+            <Fruitia />
+            <Glas />
+            <Golden />
+            <Gummy />
+            <JavaJoe />
+            <JuiceHead />
+            <Lyf />
+            <Mega />
+            <Milkshake />
+            <Mints />
+            <Naked />
+            <Pinup />
+            <Reds />
+            <Slammin />
+            <Svrf />
+            <Taylor />
+            <TimeBomb />
+            <Verdict />
+            <Wyatt />
+            <Zen />
+          </div>
+        </body>
+      </div>
+    );
+  }
 }
 
-export default Home
+export default Home;

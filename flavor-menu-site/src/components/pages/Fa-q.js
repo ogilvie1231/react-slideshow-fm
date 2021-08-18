@@ -24,85 +24,41 @@ class Faq extends Component {
                        </div>
                         <div className="row">
                             <div className='col-md-4 col-sm-6'>
-                                <h3 className=' flavor-name'>TEST</h3>
+                                <h3 className=' flavor-name'>Funky Monkey</h3>
                                 <div className='line'>
                                 </div>
-                                {/* <hr className='line' /> */}
                                 <p className='text'>
-                                    Test paragraph
+                                Bananas, Kiwis and Strawberries
                                 </p>
                             </div>
                             <div className='col-md-4 col-sm-6'>
-                                <h3 className=' flavor-name'>TEST</h3>
+                                <h3 className=' flavor-name'>Guava Blast</h3>
                                 <div className='line'>
                                 </div>
                                 <p className='text'>
-                                    Test paragraph
+                                Guava and Lemon Candy
                                 </p>
                             </div>
                             <div className='col-md-4 col-sm-6'>
-                                <h3 className=' flavor-name'>TEST</h3>
+                                <h3 className=' flavor-name'>Green Party</h3>
                                 <div className='line'>
                                 </div>
                                 <p className='text'>
-                                    Test paragraph
-                                </p>
-                            </div>
-                        
-                            <div className='col-md-4 col-sm-6'>
-                                <h3 className=' flavor-name'>TEST</h3>
-                                <div className='line'>
-                                </div>
-                                {/* <hr className='line' /> */}
-                                <p className='text'>
-                                    Test paragraph
+                                Juicy Green Apple and Kiwi
                                 </p>
                             </div>
                             <div className='col-md-4 col-sm-6'>
-                                <h3 className=' flavor-name'>TEST</h3>
+                                <h3 className=' flavor-name'>Miss Samoa</h3>
                                 <div className='line'>
                                 </div>
                                 <p className='text'>
-                                    Test paragraph
-                                </p>
-                            </div>
-                            <div className='col-md-4 col-sm-6'>
-                                <h3 className=' flavor-name'>TEST</h3>
-                                <div className='line'>
-                                </div>
-                                <p className='text'>
-                                    Test paragraph
-                                </p>
-                            </div>
-                        
-                            <div className='col-md-4 col-sm-6'>
-                                <h3 className=' flavor-name'>TEST</h3>
-                                <div className='line'>
-                                </div>
-                                <p className='text'>
-                                    Test paragraph
-                                </p>
-                            </div>
-                            <div className='col-md-4 col-sm-6'>
-                                <h3 className=' flavor-name'>TEST</h3>
-                                <div className='line'>
-                                </div>
-                                <p className='text'>
-                                    Test paragraph
-                                </p>
-                            </div>
-                            <div className='col-md-4 col-sm-6'>
-                                <h3 className=' flavor-name'>TEST</h3>
-                                <div className='line'>
-                                </div>
-                                <p className='text'>
-                                    Test paragraph
+                                Just like a Samoa Girl Scout Cookie
                                 </p>
                             </div>
                          </div>
                          <div className='row text end'>
                                 <p>
-                                    <strong className='end-text'>PG/VG: 60%/60%</strong>
+                                    <strong className='end-text'>PG/VG: 20%/80%</strong>
                               <br />
                                     <strong className='end-text'>Nicotine Levels: 0mg, 3mg, 6mg</strong>
                                     <br />

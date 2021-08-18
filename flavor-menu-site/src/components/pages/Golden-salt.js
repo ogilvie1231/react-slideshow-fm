@@ -4,9 +4,9 @@ import Logo from "../../assets/img/ivape-logo.png";
 import "./menu.css";
 import Flavor from "../../assets/img/flavors.png";
 import { Container } from "react-bootstrap";
-import Brand from "../../assets/logos/chubby-logo.png";
+import Brand from "../../assets/logos/golden-ticket-logo.png";
 
-class Chubby extends Component {
+class GoldenSalts extends Component {
   render() {
     return (
       <div>
@@ -22,30 +22,18 @@ class Chubby extends Component {
               </div>
               <div className="row">
                 <div className="col-md-4 col-sm-6">
-                  <h3 className=" flavor-name">Melon</h3>
+                  <h3 className=" flavor-name">Golden Ticket</h3>
                   <div className="line"></div>
-                  <p className="text">Watermelon bubble gum</p>
-                </div>
-                <div className="col-md-4 col-sm-6">
-                  <h3 className=" flavor-name">Purple</h3>
-                  <div className="line"></div>
-                  <p className="text">Grape bubble gum</p>
-                </div>
-                <div className="col-md-4 col-sm-6">
-                  <h3 className=" flavor-name">Razz</h3>
-                  <div className="line"></div>
-                  <p className="text">Blue Raspberry Bubble Gum</p>
+                  <p className="text">
+                    It‘s Chocolate Milk. Creamy Chocolatey Milk.
+                  </p>
                 </div>
               </div>
               <div className="row text end">
                 <p>
-                  <strong className="end-text">PG/VG: 30%/70%</strong>
+                  <strong className="end-text">24mg Nic Salt</strong>
                   <br />
-                  <strong className="end-text">
-                    Nicotine Levels: 0mg, 3mg, 6mg
-                  </strong>
-                  <br />
-                  <strong className="end-text">$19.99 60ml</strong>
+                  <strong className="end-text">$11.99 15ml</strong>
                 </p>
               </div>
             </div>
@@ -56,4 +44,4 @@ class Chubby extends Component {
   }
 }
 
-export default Chubby;
+export default GoldenSalts;

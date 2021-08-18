@@ -4,13 +4,12 @@ import Logo from "../../assets/img/ivape-logo.png";
 import "./menu.css";
 import Flavor from "../../assets/img/flavors.png";
 import { Container } from "react-bootstrap";
-import Brand from "../../assets/logos/gummy-beast-logo.png";
+import Brand from "../../assets/logos/burst-logo.png";
 
-class Gummy extends Component {
+class BurstSalts extends Component {
   render() {
     return (
       <div>
-        <header>{/* <Navbar /> */}</header>
         <body>
           <Container fluid>
             <div className="menu-div">
@@ -22,36 +21,40 @@ class Gummy extends Component {
               </div>
               <div className="row">
                 <div className="col-md-4 col-sm-6">
-                  <h3 className=" flavor-name">Blue Gummy</h3>
+                  <h3 className=" flavor-name">Apple Watermelon</h3>
                   <div className="line"></div>
                   <p className="text">
-                    A Perfect Recreation of a Blue Raspberry Gummy Bear!
+                    An apple watermelon combination that you have to try to
+                    believe
                   </p>
                 </div>
                 <div className="col-md-4 col-sm-6">
-                  <h3 className=" flavor-name">Red Gummy</h3>
+                  <h3 className=" flavor-name">Guava Dragonfruit</h3>
                   <div className="line"></div>
                   <p className="text">
-                    A Perfect Recreation of a Raspberry Gummy Bear!
+                    A mix of dragon fruit and guava that will leave your taste
+                    buds in nirvana
                   </p>
                 </div>
                 <div className="col-md-4 col-sm-6">
-                  <h3 className=" flavor-name">White Gummy</h3>
+                  <h3 className=" flavor-name">Peach Raspberry</h3>
+                  <div className="line"></div>
+                  <p className="text">A peach raspberry pairing for the ages</p>
+                </div>
+                <div className="col-md-4 col-sm-6">
+                  <h3 className=" flavor-name">Strawberry Kiwi</h3>
                   <div className="line"></div>
                   <p className="text">
-                    A Perfect Recreation of a Pineapple Gummy Bear!
+                    A strawberry Kiwi Blend that is everyone‘s favorite color in
+                    the pack.
                   </p>
                 </div>
               </div>
               <div className="row text end">
                 <p>
-                  <strong className="end-text">PG/VG: 30%/70%</strong>
+                  <strong className="end-text">24mg Nic Salt</strong>
                   <br />
-                  <strong className="end-text">
-                    Nicotine Levels: 0mg, 3mg, 6mg
-                  </strong>
-                  <br />
-                  <strong className="end-text">$19.99 60ml</strong>
+                  <strong className="end-text">$11.99 15ml</strong>
                 </p>
               </div>
             </div>
@@ -62,4 +65,4 @@ class Gummy extends Component {
   }
 }
 
-export default Gummy;
+export default BurstSalts;

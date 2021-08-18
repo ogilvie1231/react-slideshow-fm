@@ -6,7 +6,7 @@ import Flavor from '../../assets/img/flavors.png'
 import { Container } from "react-bootstrap";
 import Brand from '../../assets/logos/mega-logo.png'
 
-class Mega extends Component {
+class MegaSalts extends Component {
     render() {
         return (
             <div>
@@ -97,4 +97,4 @@ class Mega extends Component {
     }
 }
 
-export default Mega
+export default MegaSalts

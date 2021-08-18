@@ -7,7 +7,7 @@ import { Container } from "react-bootstrap";
 import Brand from "../../assets/logos/badger-hill-logo.png";
 // import Brand from 'https://www.fillmurray.com/g/200/300'
 
-class Badger extends Component {
+class BadgerSalts extends Component {
   render() {
     return (
       <div>
@@ -77,13 +77,12 @@ class Badger extends Component {
               </div>
               <div className="row text end">
                 <p>
-                  <strong className="end-text">PG/VG: 30%/70%</strong>
-                  <br />
+
                   <strong className="end-text">
-                    Nicotine Levels: 0mg, 3mg, 6mg
+                    24mg Nic Salt
                   </strong>
                   <br />
-                  <strong className="end-text">$19.99 60ml</strong>
+                  <strong className="end-text">$11.99 15ml</strong>
                 </p>
               </div>
             </div>
@@ -94,4 +93,4 @@ class Badger extends Component {
   }
 }
 
-export default Badger;
+export default BadgerSalts;
