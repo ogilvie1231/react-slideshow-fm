@@ -12,10 +12,9 @@ class App extends Component {
     return (
       <div className="App">
         <header>
-          <NavBar />
+          {/* <NavBar /> */}
         </header>
         <body>
-          <Home />
           <Router history={history}>
             <Switch>
               <Route path="/" exact component={Home} />
