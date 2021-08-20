@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/flavor-menu-react/static/css/main.b038040e.chunk.css",
-    "main.js": "/flavor-menu-react/static/js/main.0c71222f.chunk.js",
-    "main.js.map": "/flavor-menu-react/static/js/main.0c71222f.chunk.js.map",
+    "main.js": "/flavor-menu-react/static/js/main.1781b365.chunk.js",
+    "main.js.map": "/flavor-menu-react/static/js/main.1781b365.chunk.js.map",
     "runtime-main.js": "/flavor-menu-react/static/js/runtime-main.5031ef3b.js",
     "runtime-main.js.map": "/flavor-menu-react/static/js/runtime-main.5031ef3b.js.map",
     "static/css/2.da1eef19.chunk.css": "/flavor-menu-react/static/css/2.da1eef19.chunk.css",
-    "static/js/2.ef287181.chunk.js": "/flavor-menu-react/static/js/2.ef287181.chunk.js",
-    "static/js/2.ef287181.chunk.js.map": "/flavor-menu-react/static/js/2.ef287181.chunk.js.map",
+    "static/js/2.996f3a7d.chunk.js": "/flavor-menu-react/static/js/2.996f3a7d.chunk.js",
+    "static/js/2.996f3a7d.chunk.js.map": "/flavor-menu-react/static/js/2.996f3a7d.chunk.js.map",
     "static/js/3.8581e514.chunk.js": "/flavor-menu-react/static/js/3.8581e514.chunk.js",
     "static/js/3.8581e514.chunk.js.map": "/flavor-menu-react/static/js/3.8581e514.chunk.js.map",
     "index.html": "/flavor-menu-react/index.html",
     "static/css/2.da1eef19.chunk.css.map": "/flavor-menu-react/static/css/2.da1eef19.chunk.css.map",
     "static/css/main.b038040e.chunk.css.map": "/flavor-menu-react/static/css/main.b038040e.chunk.css.map",
-    "static/js/2.ef287181.chunk.js.LICENSE.txt": "/flavor-menu-react/static/js/2.ef287181.chunk.js.LICENSE.txt",
+    "static/js/2.996f3a7d.chunk.js.LICENSE.txt": "/flavor-menu-react/static/js/2.996f3a7d.chunk.js.LICENSE.txt",
     "static/media/anarchist-logo.9a0f7f96.png": "/flavor-menu-react/static/media/anarchist-logo.9a0f7f96.png",
     "static/media/menu.css": "/flavor-menu-react/static/media/background.b9b3d8ef.jpg",
     "static/media/badger-hill-logo.b9801859.png": "/flavor-menu-react/static/media/badger-hill-logo.b9801859.png",
@@ -50,8 +50,8 @@
   "entrypoints": [
     "static/js/runtime-main.5031ef3b.js",
     "static/css/2.da1eef19.chunk.css",
-    "static/js/2.ef287181.chunk.js",
+    "static/js/2.996f3a7d.chunk.js",
     "static/css/main.b038040e.chunk.css",
-    "static/js/main.0c71222f.chunk.js"
+    "static/js/main.1781b365.chunk.js"
   ]
 }
