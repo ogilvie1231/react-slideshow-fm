@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/flavor-menu-react/static/css/main.d1e1f104.chunk.css",
-    "main.js": "/flavor-menu-react/static/js/main.451e3941.chunk.js",
-    "main.js.map": "/flavor-menu-react/static/js/main.451e3941.chunk.js.map",
+    "main.js": "/flavor-menu-react/static/js/main.e4e508b4.chunk.js",
+    "main.js.map": "/flavor-menu-react/static/js/main.e4e508b4.chunk.js.map",
     "runtime-main.js": "/flavor-menu-react/static/js/runtime-main.5031ef3b.js",
     "runtime-main.js.map": "/flavor-menu-react/static/js/runtime-main.5031ef3b.js.map",
     "static/css/2.da1eef19.chunk.css": "/flavor-menu-react/static/css/2.da1eef19.chunk.css",
@@ -52,6 +52,6 @@
     "static/css/2.da1eef19.chunk.css",
     "static/js/2.996f3a7d.chunk.js",
     "static/css/main.d1e1f104.chunk.css",
-    "static/js/main.451e3941.chunk.js"
+    "static/js/main.e4e508b4.chunk.js"
   ]
 }
