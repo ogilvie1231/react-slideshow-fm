@@ -18,11 +18,10 @@ class App extends Component {
           <Router history={history}>
             <Switch>
               <Route path="/" exact component={Home} />
-              <Route path="/flavor-menu-react/" component={Home} />
               <Route path="/home" component={Home} />
               <Route path="/salts" component={Salts} />
               <Route path="/flavor-menu-react/" exact component={Home} />
-              {/* <Route path="/flavor-menu-react/" component={Home} /> */}
+              <Route path="/flavor-menu-react/" component={Home} />
               <Route path="/flavor-menu-react/home" component={Home} />
               <Route path="/flavor-menu-react/salts" component={Salts} />
             </Switch>
