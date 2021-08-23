@@ -22,8 +22,8 @@ class App extends Component {
               <Route path="/salts" component={Salts} />
               <Route path="/flavor-menu-react/" exact component={Home} />
               <Route path="/flavor-menu-react/" component={Home} />
-              <Route path="/flavor-menu-react/#/home" component={Home} />
-              <Route path="/flavor-menu-react/#/salts" component={Salts} />
+              <Route path="/flavor-menu-react/home" component={Home} />
+              <Route path="/flavor-menu-react/salts" component={Salts} />
             </Switch>
           </Router>
         </body>
