@@ -12,3 +12,20 @@
     width: 25%;
     background-color: rgb(214, 214, 214);
 }
+
+.title-text{
+    padding: 2%;
+    font-family: 'Dancing Script', cursive;
+    font-size: 6rem;
+    background: linear-gradient(
+        rgb(255, 246, 193),
+        rgb(245, 208, 0),
+        rgb(136, 116, 0)
+      );
+      background-clip: text;
+      -webkit-background-clip: text;
+      -moz-background-clip: text;
+      -moz-text-fill-color: transparent;
+      -webkit-text-fill-color: transparent;
+      -webkit-text-stroke: 1px rgb(39, 39, 39);
+}

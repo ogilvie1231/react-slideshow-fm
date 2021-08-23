@@ -12,7 +12,7 @@ class App extends Component {
     return (
       <div className="App">
         <header>
-          {/* <NavBar /> */}
+          <NavBar />
         </header>
         <body>
           <Router history={history}>

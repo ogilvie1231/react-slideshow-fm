@@ -41,6 +41,9 @@ class Home extends Component {
         <header>{/* <Navbar /> */}</header>
         <body>
           <div>
+            <div>
+              <h2 className='title-text'>Sub Ohm Flavors</h2>
+            </div>
             <Anarchist />
             <Badger />
             <Beard />

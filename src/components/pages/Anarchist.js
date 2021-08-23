@@ -1,6 +1,4 @@
 import React, { Component } from "react";
-// import Navbar from "../nav/NavBar"
-import Logo from '../../assets/img/ivape-logo.png'
 import './menu.css'
 import Flavor from '../../assets/img/flavors.png'
 import { Container } from "react-bootstrap";
