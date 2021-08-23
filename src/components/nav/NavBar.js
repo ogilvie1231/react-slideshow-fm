@@ -5,8 +5,8 @@ import Logo from "../../assets/img/ivape-logo.png";
 
 const NavBar = () => {
   return (
-    <div className="container-div">
-      <Navbar bg="dark" expand="lg">
+    <div className="container-div fixed">
+      <Navbar  className="navBar fixed" bg="dark" expand="lg">
         <Container>
           <Navbar.Brand href="#home">
             <img
