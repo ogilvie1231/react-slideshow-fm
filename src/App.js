@@ -6,6 +6,8 @@ import history from "./utils/history.js";
 import Home from "./components/home/Home";
 import Menu from "./components/menu/menu";
 import Salts from './components/salts/salts'
+import Lost from "./components/404/404";
+// import {Router, Route, history, Switch,Redirect,hashChange} from 'react-router-hash-history'
 
 class App extends Component {
   render() {
@@ -22,8 +24,11 @@ class App extends Component {
               <Route path="/salts" component={Salts} />
               <Route path="/flavor-menu-react/" exact component={Home} />
               <Route path="/flavor-menu-react/" component={Home} />
+              <Route path="/flavor-menu-react/home#" component={Home} />
+              <Route path="/flavor-menu-react/salts#" component={Salts} />
               <Route path="/flavor-menu-react/home" component={Home} />
               <Route path="/flavor-menu-react/salts" component={Salts} />
+              <Route path="*" component={Lost}/>
             </Switch>
           </Router>
         </body>
