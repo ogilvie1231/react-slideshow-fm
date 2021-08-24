@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "./static/css/main.f31c4c37.chunk.css",
-    "main.js": "./static/js/main.9ea4353d.chunk.js",
-    "main.js.map": "./static/js/main.9ea4353d.chunk.js.map",
-    "runtime-main.js": "./static/js/runtime-main.6d3c2ebb.js",
-    "runtime-main.js.map": "./static/js/runtime-main.6d3c2ebb.js.map",
+    "main.css": "./static/css/main.e06ffeea.chunk.css",
+    "main.js": "./static/js/main.f925d9e6.chunk.js",
+    "main.js.map": "./static/js/main.f925d9e6.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.70ba2f48.js",
+    "runtime-main.js.map": "./static/js/runtime-main.70ba2f48.js.map",
     "static/css/2.da1eef19.chunk.css": "./static/css/2.da1eef19.chunk.css",
-    "static/js/2.116e4dd0.chunk.js": "./static/js/2.116e4dd0.chunk.js",
-    "static/js/2.116e4dd0.chunk.js.map": "./static/js/2.116e4dd0.chunk.js.map",
-    "static/js/3.8870ae8a.chunk.js": "./static/js/3.8870ae8a.chunk.js",
-    "static/js/3.8870ae8a.chunk.js.map": "./static/js/3.8870ae8a.chunk.js.map",
+    "static/js/2.89c6df04.chunk.js": "./static/js/2.89c6df04.chunk.js",
+    "static/js/2.89c6df04.chunk.js.map": "./static/js/2.89c6df04.chunk.js.map",
+    "static/js/3.a60f4de5.chunk.js": "./static/js/3.a60f4de5.chunk.js",
+    "static/js/3.a60f4de5.chunk.js.map": "./static/js/3.a60f4de5.chunk.js.map",
     "index.html": "./index.html",
     "static/css/2.da1eef19.chunk.css.map": "./static/css/2.da1eef19.chunk.css.map",
-    "static/css/main.f31c4c37.chunk.css.map": "./static/css/main.f31c4c37.chunk.css.map",
-    "static/js/2.116e4dd0.chunk.js.LICENSE.txt": "./static/js/2.116e4dd0.chunk.js.LICENSE.txt",
+    "static/css/main.e06ffeea.chunk.css.map": "./static/css/main.e06ffeea.chunk.css.map",
+    "static/js/2.89c6df04.chunk.js.LICENSE.txt": "./static/js/2.89c6df04.chunk.js.LICENSE.txt",
     "static/media/anarchist-logo.9a0f7f96.png": "./static/media/anarchist-logo.9a0f7f96.png",
     "static/media/menu.css": "./static/media/background.b9b3d8ef.jpg",
     "static/media/badger-hill-logo.b9801859.png": "./static/media/badger-hill-logo.b9801859.png",
@@ -48,10 +48,10 @@
     "static/media/zen-haus-logo.1174e706.png": "./static/media/zen-haus-logo.1174e706.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.6d3c2ebb.js",
+    "static/js/runtime-main.70ba2f48.js",
     "static/css/2.da1eef19.chunk.css",
-    "static/js/2.116e4dd0.chunk.js",
-    "static/css/main.f31c4c37.chunk.css",
-    "static/js/main.9ea4353d.chunk.js"
+    "static/js/2.89c6df04.chunk.js",
+    "static/css/main.e06ffeea.chunk.css",
+    "static/js/main.f925d9e6.chunk.js"
   ]
 }
