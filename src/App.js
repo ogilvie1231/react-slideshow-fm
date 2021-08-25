@@ -4,9 +4,9 @@ import "./App.css";
 import NavBar from "./components/nav/NavBar";
 import history from "./utils/history.js";
 import Home from "./components/home/Home";
-import Menu from "./components/menu/menu";
 import Salts from './components/salts/salts'
 import Lost from "./components/404/404";
+import {BrowserRouter, HashRouter } from "react-router-dom";
 // import {Router, Route, history, Switch,Redirect,hashChange} from 'react-router-hash-history'
 
 class App extends Component {
@@ -17,20 +17,17 @@ class App extends Component {
           <NavBar />
         </header>
         <body>
-          <Router history={history}>
+          <BrowserRouter history={history}>
             <Switch>
               <Route path="/" exact component={Home} />
               <Route path="/home" component={Home} />
               <Route path="/salts" component={Salts} />
               <Route path="/flavor-menu-react/" exact component={Home} />
               <Route path="/flavor-menu-react/" component={Home} />
-              <Route path="/flavor-menu-react/home#" component={Home} />
-              <Route path="/flavor-menu-react/salts#" component={Salts} />
-              <Route path="/flavor-menu-react/home" component={Home} />
-              <Route path="/flavor-menu-react/salts" component={Salts} />
-              <Route path="*" component={Lost}/>
+              <Route path={`${process.env.PUBLIC_URL}/home`} component={App}></Route>
+              <Route path={`${process.env.PUBLIC_URL}/salts`} component={App}></Route>
             </Switch>
-          </Router>
+          </BrowserRouter>
         </body>
       </div>
     );
