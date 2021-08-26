@@ -17,15 +17,15 @@ class App extends Component {
           <NavBar />
         </header>
         <body>
-          <BrowserRouter history={history}>
+          <BrowserRouter basename={process.env.PUBLIC_URL}>  
             <Switch>
               <Route path="/" exact component={Home} />
               <Route path="/home" component={Home} />
               <Route path="/salts" component={Salts} />
-              <Route path="/flavor-menu-react/" exact component={Home} />
-              <Route path="/flavor-menu-react/" component={Home} />
-              <Route path={`${process.env.PUBLIC_URL}/home`} component={App}></Route>
-              <Route path={`${process.env.PUBLIC_URL}/salts`} component={App}></Route>
+              <Route path="/flavor-menu-react/home" exact component={Home} />
+              <Route path="/flavor-menu-react/salts" component={Salts} />
+              <Route path={`${process.env.PUBLIC_URL}/home`} component={Home}></Route>
+              <Route path={`${process.env.PUBLIC_URL}/salts`} component={Salts}></Route>
             </Switch>
           </BrowserRouter>
         </body>
