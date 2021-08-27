@@ -1,13 +1,12 @@
 import React, { Component } from "react";
-import { Router, Route, Switch } from "react-router";
+import {Route, Switch } from "react-router";
 import "./App.css";
 import NavBar from "./components/nav/NavBar";
 import history from "./utils/history.js";
 import Home from "./components/home/Home";
 import Salts from './components/salts/salts'
 import Lost from "./components/404/404";
-import {BrowserRouter, HashRouter } from "react-router-dom";
-// import {Router, Route, history, Switch,Redirect,hashChange} from 'react-router-hash-history'
+import {BrowserRouter as Router, HashRouter } from "react-router-dom";
 
 class App extends Component {
   render() {
@@ -17,7 +16,7 @@ class App extends Component {
           <NavBar />
         </header>
         <body>
-          <BrowserRouter basename={process.env.PUBLIC_URL}>  
+          <Router history={history} basename={process.env.PUBLIC_URL}>  
             <Switch>
               <Route path="/" exact component={Home} />
               <Route path="/home" component={Home} />
@@ -27,7 +26,7 @@ class App extends Component {
               <Route path={`${process.env.PUBLIC_URL}/home`} component={Home}></Route>
               <Route path={`${process.env.PUBLIC_URL}/salts`} component={Salts}></Route>
             </Switch>
-          </BrowserRouter>
+          </Router>
         </body>
       </div>
     );

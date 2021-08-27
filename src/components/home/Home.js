@@ -34,6 +34,7 @@ import Verdict from "../pages/Verdict";
 import Wyatt from "../pages/Wyatt-earp";
 import Zen from "../pages/Zen-haus";
 
+
 class Home extends Component {
   render() {
     return (
@@ -42,7 +43,7 @@ class Home extends Component {
         <body>
           <div>
             <div>
-              <h2 className='title-text'>Sub Ohm Flavors</h2>
+              <h2 className="title-text">Sub Ohm Flavors</h2>
             </div>
             <Anarchist />
             <Badger />

@@ -1,12 +1,12 @@
 import React, { useState } from "react";
-import { Navbar, NavDropdown, Nav, Container } from "react-bootstrap";
+import { Navbar, NavDropdown, Nav, Container, Button } from "react-bootstrap";
 import "./NavBar.css";
 import Logo from "../../assets/img/ivape-logo.png";
 
 const NavBar = () => {
   return (
     <div className="container-div fixed">
-      <Navbar  className="navBar fixed" bg="dark" expand="lg">
+      <Navbar className="navBar fixed" bg="dark" expand="lg">
         <Container>
           <Navbar.Brand href="#home">
             <img
@@ -23,6 +23,7 @@ const NavBar = () => {
               <Nav.Link className="nav-text" href="home">
                 Subohm
               </Nav.Link>
+              {/* <Button id="hideSub"></Button> */}
               <Nav.Link className="nav-text" href="salts">
                 Salts
               </Nav.Link>

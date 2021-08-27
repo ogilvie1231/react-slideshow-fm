@@ -7,9 +7,11 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter, HashRouter } from "react-router-dom";
 
 ReactDOM.render(
+  <BrowserRouter>
   <React.StrictMode>
     <App />
-  </React.StrictMode>,
+  </React.StrictMode>
+  </BrowserRouter>,
   document.getElementById("root")
 );
 
