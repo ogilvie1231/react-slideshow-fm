@@ -23,6 +23,9 @@ class Salt extends Component {
       <div>
         <body>
           <div>
+          <div>
+              <h2 className="title-text">Nic Salt Flavors</h2>
+            </div>
             <BadgerSalts />
             <BurstSalts />
             <CoastalSalts />

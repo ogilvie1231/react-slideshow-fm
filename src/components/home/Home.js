@@ -1,6 +1,4 @@
 import React, { Component } from "react";
-import Navbar from "../nav/NavBar";
-import Logo from "../../assets/img/ivape-logo.png";
 import "./home.css";
 import Anarchist from "../pages/Anarchist";
 import Badger from "../pages/Badger-hill";
@@ -44,6 +42,7 @@ class Home extends Component {
           <div>
             <div>
               <h2 className="title-text">Sub Ohm Flavors</h2>
+              <div className='myLine'></div>
             </div>
             <Anarchist />
             <Badger />
