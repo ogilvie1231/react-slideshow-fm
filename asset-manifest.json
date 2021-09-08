@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/flavor-menu-react/static/css/main.4b14f40d.chunk.css",
-    "main.js": "/flavor-menu-react/static/js/main.2ea5dae8.chunk.js",
-    "main.js.map": "/flavor-menu-react/static/js/main.2ea5dae8.chunk.js.map",
+    "main.css": "/flavor-menu-react/static/css/main.c115cf71.chunk.css",
+    "main.js": "/flavor-menu-react/static/js/main.37c23a51.chunk.js",
+    "main.js.map": "/flavor-menu-react/static/js/main.37c23a51.chunk.js.map",
     "runtime-main.js": "/flavor-menu-react/static/js/runtime-main.6845febe.js",
     "runtime-main.js.map": "/flavor-menu-react/static/js/runtime-main.6845febe.js.map",
     "static/css/2.da1eef19.chunk.css": "/flavor-menu-react/static/css/2.da1eef19.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.319f3b04.chunk.js.map": "/flavor-menu-react/static/js/3.319f3b04.chunk.js.map",
     "index.html": "/flavor-menu-react/index.html",
     "static/css/2.da1eef19.chunk.css.map": "/flavor-menu-react/static/css/2.da1eef19.chunk.css.map",
-    "static/css/main.4b14f40d.chunk.css.map": "/flavor-menu-react/static/css/main.4b14f40d.chunk.css.map",
+    "static/css/main.c115cf71.chunk.css.map": "/flavor-menu-react/static/css/main.c115cf71.chunk.css.map",
     "static/js/2.9e7a0e8b.chunk.js.LICENSE.txt": "/flavor-menu-react/static/js/2.9e7a0e8b.chunk.js.LICENSE.txt",
     "static/media/anarchist-logo.9a0f7f96.png": "/flavor-menu-react/static/media/anarchist-logo.9a0f7f96.png",
     "static/media/menu.css": "/flavor-menu-react/static/media/background.b9b3d8ef.jpg",
@@ -51,7 +51,7 @@
     "static/js/runtime-main.6845febe.js",
     "static/css/2.da1eef19.chunk.css",
     "static/js/2.9e7a0e8b.chunk.js",
-    "static/css/main.4b14f40d.chunk.css",
-    "static/js/main.2ea5dae8.chunk.js"
+    "static/css/main.c115cf71.chunk.css",
+    "static/js/main.37c23a51.chunk.js"
   ]
 }
