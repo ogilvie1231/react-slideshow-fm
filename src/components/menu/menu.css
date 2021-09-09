@@ -1,0 +1,46 @@
+.menu-div {
+    background-image: url(../../assets/img/background.jpg);
+    width: 90%;
+    margin: 1% auto;
+    
+}
+.flavorsText {
+    color: white;
+}
+
+.brand-logo {
+    max-height: 300px;
+    margin-top: 2%;
+    max-width: 90%;
+}
+
+.flavor-name {
+    color: white;
+    font-size: 3rem;
+}
+
+.text {
+    color: white
+}
+
+.line {
+    /* border-top: 5px solid #095484; */
+        width: 90%;
+        height: 2px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #ffffff;
+}
+
+.end {
+    padding-top: 3%;
+}
+
+.end-text{ 
+    font-weight: bolder;
+    font-size: 190%;
+}
+
+.flavors-img {
+    max-width: 100%;
+}

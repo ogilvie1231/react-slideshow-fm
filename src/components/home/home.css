@@ -1,0 +1,30 @@
+.logo-div {
+  width: 100%;
+}
+
+#logo {
+  width: 25%;
+  background-color: rgb(214, 214, 214);
+}
+
+.title-text {
+  padding: 2%;
+  /* font-family: 'Dancing Script', cursive; */
+  font-size: 6rem;
+  background: linear-gradient(rgb(255, 0, 0), rgb(0, 0, 0));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px rgb(39, 39, 39);
+}
+
+.myLine {
+  border-bottom: black solid 3px;
+  max-width: 70%;
+  margin: auto;
+  position: relative;
+  bottom: 30px;
+  opacity: .5;
+}

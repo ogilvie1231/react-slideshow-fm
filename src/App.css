@@ -1,0 +1,55 @@
+
+.iVape-logo {
+    max-height: 70px;
+    margin-left: 50%;
+
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+#navBtn {
+  margin-left: 70%;
+}
+
+.nav-text {
+  font-size: 2rem;
+  background: linear-gradient(
+    rgb(255, 157, 157),
+    rgb(194, 0, 0),
+    rgb(102, 0, 0)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px rgb(39, 39, 39);
+}
+
+.nav-text:hover {
+  background: linear-gradient(
+    rgb(102, 0, 0),
+    rgb(194, 0, 0),
+    rgb(255, 157, 157)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  cursor: grab;
+  transition: 0.5s ease-in-out;
+}
+
+body {
+  /* background: linear-gradient(#9c9c9c, #cccccc); */
+  background-attachment: fixed;
+}
+
