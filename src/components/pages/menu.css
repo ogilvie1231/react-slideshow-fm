@@ -11,9 +11,9 @@
 }
 
 .brand-logo {
-  max-height: 300px;
-  margin-top: 2%;
-  max-width: 90%;
+  max-height: 300px!important;
+  margin-top: 2%!important;
+  max-width: 90%!important;
 }
 
 .flavor-name {

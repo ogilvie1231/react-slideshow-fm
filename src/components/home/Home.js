@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import "./home.css";
+import { Carousel } from "react-responsive-carousel";
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import Anarchist from "../pages/Anarchist";
 import Badger from "../pages/Badger-hill";
 import Beard from "../pages/Beard";
@@ -32,7 +34,6 @@ import Verdict from "../pages/Verdict";
 import Wyatt from "../pages/Wyatt-earp";
 import Zen from "../pages/Zen-haus";
 
-
 class Home extends Component {
   render() {
     return (
@@ -40,42 +41,102 @@ class Home extends Component {
         <header>{/* <Navbar /> */}</header>
         <body>
           <div>
-            <div>
-              <h2 className="title-text">Sub Ohm Flavors</h2>
-              <div className='myLine'></div>
-            </div>
-            <Anarchist />
-            <Badger />
-            <Beard />
-            <Burst />
-            <Cali />
-            <Chubby />
-            <Coastal />
-            <Colors />
-            <Faq />
-            <FreshFarms />
-            <FreshPressed />
-            <Fruitia />
-            <Glas />
-            <Golden />
-            <Gummy />
-            <JavaJoe />
-            <JuiceHead />
-            <Lyf />
-            <Mega />
-            <Milkshake />
-            <Mints />
-            <Naked />
-            <Pinup />
-            <Reds />
-            <Slammin />
-            <Svrf />
-            <Taylor />
-            <TimeBomb />
-            <Verdict />
-            <Wyatt />
-            <Zen />
+            <h2 className="title-text">Sub Ohm Flavors</h2>
+            <div className="myLine"></div>
           </div>
+          <Carousel autoPlay>
+            <div>
+              <Anarchist />
+            </div>
+            <div>
+              <Badger />
+            </div>
+            <div>
+              <Beard />
+            </div>
+            <div>
+              <Burst />
+            </div>
+            <div>
+              <Cali />
+            </div>
+            <div>
+              <Chubby />
+            </div>
+            <Coastal />
+            <div>
+              <Colors />
+            </div>
+            <div>
+              <Faq />
+            </div>
+            <div>
+              <FreshFarms />
+            </div>
+            <div>
+              <FreshPressed />
+            </div>
+            <div>
+              <Fruitia />
+            </div>
+            <div>
+              <Glas />
+            </div>
+            <div>
+              <Golden />
+            </div>
+            <div>
+              <Gummy />
+            </div>
+            <div>
+              <JuiceHead />
+            </div>
+            <div>
+              <JavaJoe />
+            </div>
+            <div>
+              <Lyf />
+            </div>
+            <div>
+              <Mega />
+            </div>
+            <div>
+              <Milkshake />
+            </div>
+            <div>
+              <Mints />
+            </div>
+            <div>
+              <Naked />
+            </div>
+            <div>
+              <Pinup />
+            </div>
+            <div>
+              <Reds />
+            </div>
+            <div>
+              <Slammin />
+            </div>
+            <div>
+              <Svrf />
+            </div>
+            <div>
+              <Taylor />
+            </div>
+            <div>
+              <TimeBomb />
+            </div>
+            <div>
+              <Verdict />
+            </div>
+            <div>
+              <Wyatt />
+            </div>
+            <div>
+              <Zen />
+            </div>
+          </Carousel>
         </body>
       </div>
     );
