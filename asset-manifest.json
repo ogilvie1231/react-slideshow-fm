@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/react-slideshow-fm/static/css/main.9056b1ef.chunk.css",
-    "main.js": "/react-slideshow-fm/static/js/main.ab11d70b.chunk.js",
-    "main.js.map": "/react-slideshow-fm/static/js/main.ab11d70b.chunk.js.map",
-    "runtime-main.js": "/react-slideshow-fm/static/js/runtime-main.7deeb096.js",
-    "runtime-main.js.map": "/react-slideshow-fm/static/js/runtime-main.7deeb096.js.map",
-    "static/css/2.da1eef19.chunk.css": "/react-slideshow-fm/static/css/2.da1eef19.chunk.css",
-    "static/js/2.f7f26101.chunk.js": "/react-slideshow-fm/static/js/2.f7f26101.chunk.js",
-    "static/js/2.f7f26101.chunk.js.map": "/react-slideshow-fm/static/js/2.f7f26101.chunk.js.map",
-    "static/js/3.319f3b04.chunk.js": "/react-slideshow-fm/static/js/3.319f3b04.chunk.js",
-    "static/js/3.319f3b04.chunk.js.map": "/react-slideshow-fm/static/js/3.319f3b04.chunk.js.map",
+    "main.css": "/react-slideshow-fm/static/css/main.107b4cc8.chunk.css",
+    "main.js": "/react-slideshow-fm/static/js/main.0ba293c8.chunk.js",
+    "main.js.map": "/react-slideshow-fm/static/js/main.0ba293c8.chunk.js.map",
+    "runtime-main.js": "/react-slideshow-fm/static/js/runtime-main.e3133cf4.js",
+    "runtime-main.js.map": "/react-slideshow-fm/static/js/runtime-main.e3133cf4.js.map",
+    "static/css/2.1bbd9a97.chunk.css": "/react-slideshow-fm/static/css/2.1bbd9a97.chunk.css",
+    "static/js/2.bbaffd67.chunk.js": "/react-slideshow-fm/static/js/2.bbaffd67.chunk.js",
+    "static/js/2.bbaffd67.chunk.js.map": "/react-slideshow-fm/static/js/2.bbaffd67.chunk.js.map",
+    "static/js/3.ff8d8eb5.chunk.js": "/react-slideshow-fm/static/js/3.ff8d8eb5.chunk.js",
+    "static/js/3.ff8d8eb5.chunk.js.map": "/react-slideshow-fm/static/js/3.ff8d8eb5.chunk.js.map",
     "index.html": "/react-slideshow-fm/index.html",
-    "static/css/2.da1eef19.chunk.css.map": "/react-slideshow-fm/static/css/2.da1eef19.chunk.css.map",
-    "static/css/main.9056b1ef.chunk.css.map": "/react-slideshow-fm/static/css/main.9056b1ef.chunk.css.map",
-    "static/js/2.f7f26101.chunk.js.LICENSE.txt": "/react-slideshow-fm/static/js/2.f7f26101.chunk.js.LICENSE.txt",
+    "static/css/2.1bbd9a97.chunk.css.map": "/react-slideshow-fm/static/css/2.1bbd9a97.chunk.css.map",
+    "static/css/main.107b4cc8.chunk.css.map": "/react-slideshow-fm/static/css/main.107b4cc8.chunk.css.map",
+    "static/js/2.bbaffd67.chunk.js.LICENSE.txt": "/react-slideshow-fm/static/js/2.bbaffd67.chunk.js.LICENSE.txt",
     "static/media/anarchist-logo.9a0f7f96.png": "/react-slideshow-fm/static/media/anarchist-logo.9a0f7f96.png",
     "static/media/menu.css": "/react-slideshow-fm/static/media/background.b9b3d8ef.jpg",
     "static/media/badger-hill-logo.b9801859.png": "/react-slideshow-fm/static/media/badger-hill-logo.b9801859.png",
@@ -48,10 +48,10 @@
     "static/media/zen-haus-logo.1174e706.png": "/react-slideshow-fm/static/media/zen-haus-logo.1174e706.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.7deeb096.js",
-    "static/css/2.da1eef19.chunk.css",
-    "static/js/2.f7f26101.chunk.js",
-    "static/css/main.9056b1ef.chunk.css",
-    "static/js/main.ab11d70b.chunk.js"
+    "static/js/runtime-main.e3133cf4.js",
+    "static/css/2.1bbd9a97.chunk.css",
+    "static/js/2.bbaffd67.chunk.js",
+    "static/css/main.107b4cc8.chunk.css",
+    "static/js/main.0ba293c8.chunk.js"
   ]
 }
